@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+
+# Python cache and test files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data: the raw dataset is large and has its own licence, and the
+# generated data can be rebuilt any time with generator/generate.py
+data/raw/
+data/generated/
+*.sqlite
+*.db
+
+# Secrets and local settings (never commit credentials or tokens)
+.env
+*.key
+*.pem
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
